@@ -1,0 +1,1 @@
+function foo(a, b) {  if (typeof a === 'number' && typeof b === 'number') {    return a + b;  } else {    // Handle cases where inputs are not numbers    return 'Invalid input: Both arguments must be numbers';  } } console.log(foo(1, 2)); // Expected output: 3 console.log(foo(1, '2')); // Expected output: Invalid input: Both arguments must be numbers 
